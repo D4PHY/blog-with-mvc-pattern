@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "title": "Vacanta Time",
+      "date": "2021-04-09",
+      "body": "some post here",
+      "author": "D4phy",
+      "id": 1
+    },
+    {
+      "title": "Another post",
+      "date": "2021-04-23",
+      "body": "some other post",
+      "author": "Nicu",
+      "id": 2
+    },
+    {
+      "title": "Happy Coding",
+      "date": "2021-12-29",
+      "body": "hapy typind indeed",
+      "author": "D4phy",
+      "id": 3
+    },
+    {
+      "title": "Let's have a party",
+      "date": "2021-04-20",
+      "body": "Sure! Let me take my party pants",
+      "author": "Nicu",
+      "id": 4
+    }
+  ],
+  "comments": []
+}

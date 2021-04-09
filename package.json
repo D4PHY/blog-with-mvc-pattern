@@ -1,0 +1,10 @@
+{
+  "name": "blog-with-mvc",
+  "version": "1.0.0",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "scripts": {
+    "start": "npx json-server -w db.json"
+  }
+}

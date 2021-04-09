@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/posts.model.js"></script>
+    <script src="./scripts/posts.view.js" defer></script>
+    <script src="./scripts/posts.controller.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My Blog</h1>
+    <h2>Recent Posts</h2>
+    <section id="root"></section>
+    <template data-template="posts">
+      <p>
+        <a href="#">Titlul postului</a> - <span>Feb. 2021</span> - <em>Paul</em>
+      </p>
+    </template>
+    <form action="" data-add-post-form>
+      <h2>Add a ne post</h2>
+      <p>
+        <lable for="post-title">Post Title</lable>
+        <input type="text" id="postTitle" name="postTitle" />
+      </p>
+      <p>
+        <lable for="post-author">Author</lable>
+        <input type="text" id="postAuthor" name="postAuthor" />
+      </p>
+      <p>
+        <lable for="postBody">Post Text</lable>
+        <textarea name="postBody" id="postBody" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <lable for="post-date">Pick a date</lable>
+        <input type="date" id="postDate" name="postDate" />
+      </p>
+      <button type="submit">Create Post</button>
+    </form>
+  </body>
+</html>
